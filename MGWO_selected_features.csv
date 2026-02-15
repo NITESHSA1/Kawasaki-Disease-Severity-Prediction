@@ -1,0 +1,59 @@
+Feature,Selection_Frequency
+Age at Diagnosis,1.0
+Ethnicity_Caucasian,1.0
+"Location_CityA, StateY, Country3",1.0
+"Location_CityB, StateX, Country3",1.0
+"Location_CityA, StateZ, Country1",1.0
+Complications_Myocarditis,1.0
+Ethnicity_Asian,0.0
+Gender_Female,0.0
+Ethnicity_African American,0.0
+Fever Duration,0.0
+"Location_CityA, StateX, Country1",0.0
+Ethnicity_Other,0.0
+Ethnicity_Hispanic,0.0
+"Location_CityA, StateX, Country2",0.0
+"Location_CityA, StateY, Country2",0.0
+"Location_CityA, StateY, Country1",0.0
+"Location_CityA, StateZ, Country2",0.0
+"Location_CityA, StateX, Country3",0.0
+"Location_CityA, StateZ, Country3",0.0
+"Location_CityB, StateX, Country1",0.0
+"Location_CityB, StateX, Country2",0.0
+"Location_CityB, StateY, Country1",0.0
+"Location_CityB, StateY, Country2",0.0
+"Location_CityB, StateY, Country3",0.0
+"Location_CityB, StateZ, Country1",0.0
+Gender_Male,0.0
+"Location_CityB, StateZ, Country2",0.0
+"Location_CityB, StateZ, Country3",0.0
+"Location_CityC, StateX, Country2",0.0
+"Location_CityC, StateX, Country1",0.0
+"Location_CityC, StateY, Country1",0.0
+"Location_CityC, StateY, Country2",0.0
+"Location_CityC, StateY, Country3",0.0
+"Location_CityC, StateX, Country3",0.0
+"Location_CityC, StateZ, Country2",0.0
+"Location_CityC, StateZ, Country3",0.0
+Symptoms_Fever,0.0
+Symptoms_Rash,0.0
+Symptoms_Red Eyes,0.0
+Symptoms_Swollen Hands/Feet,0.0
+Symptoms_Swollen Lymph Nodes,0.0
+"Location_CityC, StateZ, Country1",0.0
+Laboratory Tests_Elevated,0.0
+Laboratory Tests_Normal,0.0
+Echocardiography_Normal,0.0
+Echocardiography_Abnormal,0.0
+Treatment Approach_IVIG,0.0
+Treatment Approach_IVIG + Aspirin,0.0
+Clinical Outcomes_Improvement,0.0
+Treatment Approach_Aspirin,0.0
+Clinical Outcomes_Stable,0.0
+Clinical Outcomes_Worsening,0.0
+Complications_Coronary Artery Aneurysm,0.0
+Complications_Pericarditis,0.0
+Complications_Unknown,0.0
+Follow-up Visits_Not Scheduled,0.0
+Follow-up Visits_Scheduled,0.0
+is_outlier,0.0

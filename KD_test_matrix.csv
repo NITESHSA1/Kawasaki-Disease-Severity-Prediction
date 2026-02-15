@@ -1,0 +1,534 @@
+Patient ID,Date of Diagnosis,Age at Diagnosis,Gender,Ethnicity,Location,Fever Duration,Symptoms,Laboratory Tests,Echocardiography,Treatment Approach,Clinical Outcomes,Complications,Follow-up Visits,Long-Term Effects
+80145,2017-12-17,6,Female,Caucasian,"CityB, StateY, Country3",20,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Unknown,Scheduled,Unknown
+86380,2022-03-14,10,Male,African American,"CityA, StateY, Country3",18,Red Eyes,Normal,Normal,Aspirin,Improvement,Myocarditis,Scheduled,Unknown
+20269,2022-10-05,3,Female,Hispanic,"CityB, StateY, Country3",4,Fever,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Mild
+15447,2021-05-01,9,Female,Other,"CityC, StateZ, Country2",21,Rash,Normal,Normal,IVIG,Stable,Pericarditis,Not Scheduled,Unknown
+91795,2018-09-05,13,Male,African American,"CityB, StateZ, Country1",22,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Severe
+10426,2021-09-14,3,Male,Asian,"CityC, StateZ, Country2",14,Rash,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+84419,2023-01-22,4,Male,Asian,"CityC, StateZ, Country3",3,Fever,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Unknown
+87724,2022-10-26,10,Female,Asian,"CityC, StateZ, Country3",28,Red Eyes,Elevated,Normal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+46538,2015-05-12,12,Female,Asian,"CityB, StateX, Country1",15,Red Eyes,Normal,Normal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+86572,2015-11-26,6,Male,Caucasian,"CityC, StateX, Country3",5,Fever,Normal,Abnormal,Aspirin,Worsening,Unknown,Scheduled,Mild
+17015,2014-02-05,4,Female,Hispanic,"CityA, StateX, Country2",17,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+76313,2015-06-18,3,Male,African American,"CityB, StateY, Country1",15,Rash,Normal,Abnormal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+82987,2018-11-17,2,Male,Hispanic,"CityA, StateY, Country3",1,Fever,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+47759,2022-11-29,13,Male,Other,"CityB, StateY, Country3",1,Rash,Elevated,Abnormal,IVIG,Stable,Unknown,Scheduled,Unknown
+86421,2021-06-18,3,Male,Hispanic,"CityC, StateX, Country3",7,Fever,Elevated,Normal,IVIG,Worsening,Unknown,Scheduled,Severe
+10755,2018-04-12,3,Female,Other,"CityB, StateZ, Country1",11,Red Eyes,Elevated,Normal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Mild
+99991,2022-02-06,11,Female,Other,"CityB, StateZ, Country3",2,Fever,Elevated,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Severe
+77254,2015-12-13,12,Male,Caucasian,"CityC, StateZ, Country2",25,Red Eyes,Normal,Abnormal,IVIG,Stable,Pericarditis,Not Scheduled,Unknown
+74604,2016-10-17,9,Female,Hispanic,"CityC, StateZ, Country2",4,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+56568,2020-12-30,8,Female,Hispanic,"CityB, StateX, Country3",24,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+18551,2016-05-01,8,Female,Other,"CityB, StateX, Country2",25,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Stable,Unknown,Scheduled,Mild
+80185,2018-08-25,15,Male,Asian,"CityB, StateY, Country1",16,Fever,Normal,Abnormal,IVIG,Improvement,Myocarditis,Not Scheduled,Unknown
+54079,2023-07-30,14,Male,Hispanic,"CityC, StateY, Country2",18,Rash,Normal,Abnormal,Aspirin,Stable,Pericarditis,Scheduled,Mild
+63959,2023-07-20,16,Female,Asian,"CityB, StateX, Country2",3,Swollen Hands/Feet,Normal,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Scheduled,Unknown
+83815,2014-07-26,5,Male,Hispanic,"CityB, StateZ, Country3",15,Red Eyes,Normal,Normal,Aspirin,Improvement,Unknown,Scheduled,Mild
+91822,2015-03-08,1,Female,Other,"CityA, StateZ, Country2",29,Fever,Elevated,Abnormal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Mild
+75244,2018-11-30,7,Male,African American,"CityA, StateZ, Country2",19,Red Eyes,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+49817,2014-10-19,12,Female,Caucasian,"CityA, StateX, Country1",15,Fever,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+34080,2021-09-26,16,Male,Other,"CityC, StateY, Country3",20,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+50027,2015-02-04,1,Male,Caucasian,"CityA, StateX, Country2",8,Rash,Elevated,Abnormal,IVIG,Worsening,Myocarditis,Scheduled,Mild
+53939,2020-12-16,5,Male,Asian,"CityB, StateY, Country3",6,Rash,Normal,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+94087,2021-09-16,2,Female,Asian,"CityC, StateX, Country2",15,Swollen Lymph Nodes,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Unknown
+40214,2018-03-16,14,Male,Caucasian,"CityB, StateY, Country1",12,Rash,Normal,Abnormal,IVIG + Aspirin,Improvement,Myocarditis,Scheduled,Unknown
+49704,2019-01-29,13,Female,Other,"CityB, StateX, Country3",25,Rash,Normal,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+72348,2017-02-18,13,Male,Other,"CityA, StateY, Country1",26,Swollen Lymph Nodes,Normal,Normal,Aspirin,Improvement,Unknown,Not Scheduled,Unknown
+43062,2023-02-21,9,Male,Hispanic,"CityC, StateZ, Country3",25,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Stable,Myocarditis,Scheduled,Unknown
+97636,2021-01-18,14,Male,Asian,"CityB, StateX, Country2",30,Rash,Elevated,Abnormal,IVIG,Improvement,Unknown,Not Scheduled,Mild
+33008,2018-03-28,1,Female,Other,"CityC, StateX, Country3",7,Fever,Elevated,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Scheduled,Unknown
+21337,2014-09-25,13,Male,Other,"CityC, StateY, Country3",4,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Improvement,Myocarditis,Scheduled,Unknown
+76612,2021-01-01,7,Male,Asian,"CityC, StateZ, Country3",17,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Severe
+33168,2017-12-31,4,Male,Other,"CityA, StateY, Country3",30,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Improvement,Unknown,Scheduled,Mild
+38797,2015-06-23,1,Male,African American,"CityB, StateY, Country2",9,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+35248,2020-02-13,14,Female,Other,"CityC, StateX, Country1",10,Fever,Normal,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+16088,2014-02-12,13,Male,Caucasian,"CityC, StateZ, Country2",13,Red Eyes,Normal,Normal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Severe
+99174,2016-04-23,8,Female,African American,"CityA, StateZ, Country3",3,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Improvement,Pericarditis,Not Scheduled,Unknown
+84305,2013-10-28,3,Male,Asian,"CityB, StateY, Country3",13,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+46528,2020-02-02,12,Male,Hispanic,"CityC, StateZ, Country3",17,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Improvement,Myocarditis,Scheduled,Severe
+13813,2016-03-20,8,Female,Asian,"CityC, StateZ, Country1",15,Swollen Lymph Nodes,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Severe
+11786,2018-11-22,3,Female,Other,"CityA, StateY, Country3",19,Fever,Normal,Abnormal,Aspirin,Worsening,Unknown,Scheduled,Severe
+49391,2014-07-18,5,Female,Asian,"CityB, StateZ, Country1",24,Fever,Elevated,Abnormal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+72286,2019-01-13,3,Female,Asian,"CityC, StateZ, Country2",4,Swollen Lymph Nodes,Normal,Normal,IVIG,Improvement,Pericarditis,Scheduled,Unknown
+55801,2019-04-17,3,Male,Caucasian,"CityA, StateX, Country2",14,Swollen Lymph Nodes,Normal,Normal,Aspirin,Stable,Unknown,Scheduled,Mild
+11976,2020-08-13,12,Male,Hispanic,"CityB, StateZ, Country3",3,Red Eyes,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+88177,2015-12-06,8,Male,African American,"CityB, StateY, Country3",28,Rash,Normal,Normal,Aspirin,Stable,Pericarditis,Scheduled,Mild
+48608,2022-05-17,8,Female,Caucasian,"CityB, StateX, Country1",9,Red Eyes,Normal,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Severe
+52778,2013-11-27,6,Female,Caucasian,"CityC, StateY, Country1",28,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+85426,2021-04-14,1,Male,Hispanic,"CityB, StateX, Country3",27,Swollen Hands/Feet,Normal,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+34323,2022-01-15,7,Female,African American,"CityC, StateY, Country1",10,Rash,Elevated,Normal,IVIG,Improvement,Unknown,Not Scheduled,Unknown
+27439,2019-01-28,2,Male,Caucasian,"CityA, StateZ, Country1",12,Rash,Normal,Abnormal,IVIG,Stable,Unknown,Scheduled,Unknown
+39061,2019-07-14,12,Female,Asian,"CityA, StateY, Country2",3,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+57592,2018-03-30,14,Female,Caucasian,"CityA, StateX, Country2",7,Swollen Hands/Feet,Normal,Normal,IVIG,Worsening,Myocarditis,Scheduled,Severe
+62490,2017-04-25,15,Male,African American,"CityB, StateY, Country1",9,Swollen Lymph Nodes,Normal,Normal,IVIG,Worsening,Myocarditis,Not Scheduled,Unknown
+96805,2023-08-01,7,Female,Other,"CityC, StateX, Country3",6,Swollen Hands/Feet,Normal,Abnormal,IVIG,Stable,Myocarditis,Not Scheduled,Severe
+97945,2016-07-30,6,Female,Caucasian,"CityC, StateZ, Country1",30,Rash,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+91251,2014-07-09,1,Female,Asian,"CityB, StateZ, Country2",27,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+51716,2023-04-15,15,Female,Hispanic,"CityB, StateX, Country3",25,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+91043,2018-01-05,1,Male,Caucasian,"CityC, StateY, Country3",23,Red Eyes,Elevated,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+42639,2015-06-06,9,Female,Hispanic,"CityB, StateZ, Country2",18,Red Eyes,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Mild
+23484,2019-12-21,18,Female,African American,"CityC, StateY, Country2",28,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+33147,2023-01-24,3,Female,African American,"CityA, StateX, Country1",20,Rash,Elevated,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Mild
+31645,2018-10-28,17,Male,Caucasian,"CityC, StateY, Country2",25,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Unknown,Scheduled,Severe
+88811,2016-05-26,17,Female,Hispanic,"CityC, StateX, Country1",29,Swollen Hands/Feet,Elevated,Normal,Aspirin,Stable,Unknown,Not Scheduled,Unknown
+71043,2021-01-16,14,Male,Other,"CityA, StateZ, Country1",19,Swollen Lymph Nodes,Normal,Normal,IVIG,Worsening,Myocarditis,Scheduled,Mild
+84834,2016-06-10,16,Male,African American,"CityB, StateX, Country2",26,Rash,Normal,Normal,Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+65364,2015-12-05,15,Male,African American,"CityC, StateX, Country3",20,Fever,Normal,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+76678,2017-01-02,4,Female,Other,"CityC, StateZ, Country3",1,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Severe
+23085,2014-10-20,16,Male,Hispanic,"CityC, StateZ, Country2",6,Rash,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+48131,2022-11-01,16,Male,African American,"CityA, StateX, Country1",13,Fever,Elevated,Normal,IVIG,Improvement,Unknown,Not Scheduled,Mild
+26955,2017-08-05,16,Female,Hispanic,"CityC, StateX, Country1",14,Rash,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Unknown
+74177,2019-06-06,13,Male,African American,"CityB, StateX, Country1",30,Red Eyes,Elevated,Abnormal,IVIG,Stable,Pericarditis,Scheduled,Mild
+62199,2022-03-30,14,Male,Caucasian,"CityB, StateZ, Country3",28,Rash,Elevated,Abnormal,IVIG,Stable,Myocarditis,Not Scheduled,Unknown
+67000,2014-01-02,1,Female,Other,"CityA, StateY, Country3",20,Fever,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+46244,2022-08-11,17,Male,Other,"CityC, StateX, Country1",9,Rash,Elevated,Normal,IVIG,Worsening,Myocarditis,Not Scheduled,Severe
+35243,2022-02-27,13,Female,African American,"CityB, StateY, Country3",7,Fever,Elevated,Normal,IVIG,Stable,Myocarditis,Not Scheduled,Mild
+94784,2021-02-04,7,Female,African American,"CityC, StateZ, Country1",22,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+20645,2016-09-23,3,Male,Other,"CityA, StateY, Country2",29,Fever,Normal,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+13126,2023-08-06,7,Male,African American,"CityB, StateZ, Country1",2,Rash,Elevated,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Mild
+96897,2015-12-08,10,Male,Caucasian,"CityC, StateY, Country2",26,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Mild
+18597,2016-10-09,3,Male,Other,"CityB, StateZ, Country2",22,Fever,Normal,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Mild
+39835,2020-07-17,13,Female,Caucasian,"CityB, StateX, Country2",7,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Scheduled,Severe
+18917,2018-07-13,10,Female,Other,"CityB, StateX, Country2",22,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+61718,2020-03-19,2,Male,Hispanic,"CityC, StateZ, Country1",23,Red Eyes,Normal,Normal,IVIG,Worsening,Myocarditis,Scheduled,Mild
+91948,2017-07-20,2,Male,African American,"CityA, StateY, Country1",14,Red Eyes,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Scheduled,Severe
+99007,2020-10-25,1,Male,Asian,"CityA, StateX, Country3",4,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Unknown
+70869,2017-10-25,4,Male,Asian,"CityC, StateY, Country1",15,Fever,Normal,Abnormal,Aspirin,Stable,Myocarditis,Scheduled,Mild
+58547,2022-01-29,11,Female,Other,"CityC, StateZ, Country3",12,Red Eyes,Elevated,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+10874,2017-07-02,3,Female,Hispanic,"CityA, StateZ, Country3",20,Swollen Hands/Feet,Normal,Abnormal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+39370,2014-02-23,2,Male,African American,"CityA, StateZ, Country1",7,Rash,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Mild
+87867,2013-12-19,3,Female,Asian,"CityC, StateZ, Country2",15,Fever,Normal,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+19042,2018-10-16,6,Female,Other,"CityB, StateZ, Country2",8,Red Eyes,Normal,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Unknown
+64147,2017-01-28,17,Male,Hispanic,"CityB, StateZ, Country3",19,Red Eyes,Elevated,Normal,IVIG,Stable,Pericarditis,Scheduled,Severe
+93755,2014-12-01,12,Female,Other,"CityC, StateZ, Country3",24,Fever,Elevated,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+20136,2019-02-03,18,Male,Hispanic,"CityB, StateY, Country3",23,Swollen Lymph Nodes,Elevated,Normal,IVIG,Worsening,Unknown,Scheduled,Unknown
+72968,2021-06-06,3,Female,Hispanic,"CityA, StateX, Country3",25,Fever,Normal,Normal,Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+48983,2020-11-08,5,Male,Hispanic,"CityA, StateX, Country2",27,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Unknown
+64680,2022-07-15,16,Male,Asian,"CityB, StateX, Country1",3,Red Eyes,Elevated,Normal,Aspirin,Worsening,Unknown,Not Scheduled,Severe
+51077,2022-08-19,12,Male,Asian,"CityB, StateZ, Country2",14,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+36115,2016-09-07,15,Female,African American,"CityC, StateZ, Country2",23,Fever,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+95680,2023-06-17,15,Male,Asian,"CityB, StateX, Country3",25,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+35992,2015-10-10,15,Female,Asian,"CityC, StateX, Country2",23,Red Eyes,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Mild
+29759,2022-09-28,14,Male,Hispanic,"CityB, StateY, Country1",26,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Mild
+94797,2020-06-13,17,Female,Hispanic,"CityB, StateX, Country1",14,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Mild
+28756,2016-08-16,7,Male,Hispanic,"CityC, StateY, Country3",20,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+82097,2016-12-09,15,Female,Other,"CityB, StateZ, Country2",17,Fever,Normal,Abnormal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Unknown
+50010,2018-11-21,17,Female,Other,"CityA, StateZ, Country3",25,Fever,Elevated,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Severe
+37482,2015-04-21,6,Male,Asian,"CityC, StateY, Country1",8,Fever,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Mild
+15126,2023-05-29,6,Male,African American,"CityC, StateY, Country3",28,Red Eyes,Normal,Abnormal,Aspirin,Worsening,Unknown,Scheduled,Unknown
+64544,2014-09-17,1,Male,Other,"CityC, StateX, Country1",16,Swollen Lymph Nodes,Elevated,Normal,IVIG,Worsening,Unknown,Not Scheduled,Mild
+66804,2015-08-10,4,Male,Asian,"CityB, StateX, Country1",21,Rash,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Unknown
+98193,2019-07-30,1,Male,African American,"CityB, StateZ, Country1",13,Rash,Normal,Normal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+95903,2022-12-07,13,Female,African American,"CityA, StateZ, Country3",4,Fever,Normal,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Mild
+32826,2019-06-04,5,Female,Asian,"CityA, StateZ, Country1",10,Rash,Normal,Normal,IVIG,Worsening,Myocarditis,Not Scheduled,Mild
+89438,2019-07-26,16,Male,Asian,"CityB, StateX, Country2",24,Rash,Elevated,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Mild
+36193,2019-07-09,7,Female,Asian,"CityA, StateX, Country1",15,Rash,Normal,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Scheduled,Severe
+19937,2018-02-19,11,Female,Asian,"CityC, StateZ, Country2",23,Swollen Lymph Nodes,Normal,Normal,IVIG,Worsening,Unknown,Scheduled,Mild
+52393,2014-09-29,5,Male,Caucasian,"CityB, StateZ, Country2",5,Red Eyes,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Scheduled,Mild
+82453,2016-12-19,1,Female,Asian,"CityB, StateY, Country1",16,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Worsening,Pericarditis,Not Scheduled,Unknown
+21592,2019-01-28,6,Male,Other,"CityB, StateY, Country1",12,Rash,Normal,Abnormal,Aspirin,Worsening,Unknown,Not Scheduled,Severe
+36696,2016-03-23,4,Female,Hispanic,"CityA, StateZ, Country3",26,Fever,Normal,Normal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Mild
+14337,2022-04-19,12,Female,Other,"CityA, StateZ, Country2",22,Red Eyes,Normal,Normal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Severe
+25045,2022-04-22,14,Male,Other,"CityA, StateY, Country1",22,Rash,Elevated,Normal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+78556,2020-05-17,16,Female,Caucasian,"CityB, StateY, Country2",22,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Stable,Myocarditis,Scheduled,Unknown
+92590,2019-09-01,6,Male,Caucasian,"CityB, StateY, Country1",17,Rash,Normal,Normal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Unknown
+75575,2019-06-25,12,Male,Hispanic,"CityB, StateY, Country3",26,Fever,Elevated,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Scheduled,Mild
+72461,2020-07-11,15,Female,Other,"CityA, StateX, Country1",4,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+82570,2015-04-06,5,Female,Other,"CityA, StateX, Country1",3,Rash,Elevated,Abnormal,Aspirin,Stable,Unknown,Scheduled,Mild
+40716,2017-04-07,16,Female,Caucasian,"CityA, StateX, Country1",2,Red Eyes,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Scheduled,Mild
+59295,2017-01-01,13,Female,African American,"CityB, StateY, Country2",17,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+35559,2023-06-29,11,Female,Asian,"CityC, StateY, Country2",23,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+40019,2021-05-26,2,Male,Hispanic,"CityB, StateX, Country3",25,Fever,Normal,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Scheduled,Severe
+67025,2022-02-03,12,Male,Caucasian,"CityC, StateY, Country1",7,Fever,Normal,Normal,IVIG,Improvement,Pericarditis,Scheduled,Severe
+52893,2016-07-12,2,Female,African American,"CityA, StateX, Country3",13,Fever,Normal,Abnormal,Aspirin,Stable,Pericarditis,Scheduled,Unknown
+19905,2015-05-24,13,Male,Asian,"CityB, StateX, Country1",8,Red Eyes,Normal,Normal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+24951,2017-08-16,13,Male,Other,"CityA, StateY, Country1",24,Rash,Normal,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+63232,2018-02-02,9,Female,Other,"CityA, StateZ, Country3",10,Fever,Elevated,Normal,Aspirin,Stable,Myocarditis,Scheduled,Severe
+34817,2017-06-11,6,Male,Caucasian,"CityB, StateX, Country3",2,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+23207,2015-12-21,12,Female,Other,"CityC, StateX, Country3",11,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Stable,Unknown,Scheduled,Mild
+30900,2020-01-09,4,Male,Hispanic,"CityC, StateZ, Country2",2,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+57906,2022-08-14,11,Female,African American,"CityA, StateY, Country3",5,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+75356,2019-01-06,2,Female,Asian,"CityB, StateZ, Country1",16,Rash,Normal,Abnormal,IVIG,Stable,Unknown,Scheduled,Severe
+57009,2020-09-09,12,Female,Hispanic,"CityC, StateY, Country3",1,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Unknown
+26238,2018-03-14,14,Female,Caucasian,"CityA, StateY, Country2",24,Red Eyes,Elevated,Normal,IVIG,Improvement,Unknown,Not Scheduled,Mild
+60180,2018-07-28,2,Female,Asian,"CityC, StateZ, Country1",14,Red Eyes,Normal,Normal,Aspirin,Improvement,Unknown,Scheduled,Severe
+80725,2019-07-31,6,Female,Other,"CityC, StateX, Country1",14,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+52417,2014-01-12,17,Female,African American,"CityB, StateZ, Country1",13,Rash,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Severe
+65823,2018-06-03,8,Female,African American,"CityB, StateZ, Country2",19,Fever,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Severe
+14589,2018-08-29,11,Female,Hispanic,"CityA, StateY, Country3",12,Swollen Hands/Feet,Normal,Normal,IVIG,Stable,Pericarditis,Not Scheduled,Unknown
+16271,2022-06-14,18,Female,African American,"CityB, StateY, Country2",6,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+33920,2013-11-12,11,Female,Other,"CityC, StateX, Country2",23,Rash,Elevated,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+41645,2017-07-01,17,Male,Caucasian,"CityC, StateX, Country1",8,Rash,Normal,Normal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+33633,2014-05-28,10,Male,Hispanic,"CityC, StateZ, Country1",16,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+35465,2020-09-05,11,Male,Caucasian,"CityC, StateZ, Country3",10,Red Eyes,Normal,Normal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Unknown
+31706,2021-03-18,6,Female,Asian,"CityC, StateX, Country3",9,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Stable,Unknown,Scheduled,Severe
+86413,2019-04-30,8,Female,Asian,"CityA, StateZ, Country3",4,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Improvement,Pericarditis,Not Scheduled,Unknown
+23281,2017-08-16,5,Female,African American,"CityA, StateY, Country3",14,Red Eyes,Normal,Abnormal,Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+74134,2016-03-10,4,Female,Other,"CityB, StateZ, Country3",14,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Worsening,Unknown,Not Scheduled,Unknown
+22571,2019-10-18,13,Male,Asian,"CityB, StateX, Country1",11,Rash,Normal,Normal,Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+71744,2018-05-08,15,Male,Hispanic,"CityB, StateY, Country2",18,Rash,Normal,Normal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Unknown
+97769,2014-05-28,4,Female,African American,"CityC, StateX, Country3",26,Rash,Normal,Abnormal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Severe
+86399,2014-10-07,14,Female,African American,"CityA, StateX, Country1",3,Rash,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Mild
+46846,2020-05-08,18,Female,African American,"CityA, StateZ, Country1",21,Rash,Elevated,Normal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+89685,2015-07-16,13,Male,Other,"CityB, StateZ, Country2",3,Rash,Elevated,Normal,IVIG,Stable,Pericarditis,Not Scheduled,Mild
+48827,2014-03-23,7,Female,Hispanic,"CityB, StateY, Country3",26,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+96965,2016-03-08,12,Male,Caucasian,"CityC, StateY, Country2",24,Red Eyes,Elevated,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+69126,2021-11-16,7,Female,African American,"CityB, StateY, Country2",18,Rash,Elevated,Abnormal,Aspirin,Improvement,Unknown,Scheduled,Unknown
+10001,2017-12-18,4,Male,Asian,"CityB, StateX, Country3",23,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+46813,2022-04-05,10,Female,African American,"CityC, StateY, Country1",10,Fever,Elevated,Normal,IVIG,Worsening,Pericarditis,Scheduled,Severe
+96757,2018-06-25,16,Female,Hispanic,"CityA, StateX, Country1",3,Fever,Normal,Normal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+20546,2021-11-16,1,Male,Caucasian,"CityB, StateZ, Country1",2,Swollen Hands/Feet,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+70999,2018-10-06,6,Female,African American,"CityA, StateX, Country1",8,Rash,Elevated,Normal,IVIG,Worsening,Unknown,Not Scheduled,Mild
+71675,2019-04-11,12,Female,Caucasian,"CityC, StateX, Country3",14,Swollen Lymph Nodes,Normal,Normal,Aspirin,Worsening,Unknown,Not Scheduled,Mild
+45901,2019-12-23,1,Male,Other,"CityA, StateX, Country3",30,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+36400,2021-03-02,13,Male,Asian,"CityA, StateX, Country2",6,Red Eyes,Normal,Abnormal,Aspirin,Improvement,Unknown,Not Scheduled,Severe
+51183,2022-05-05,11,Female,Asian,"CityC, StateZ, Country1",1,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Unknown
+32285,2021-08-12,8,Male,Caucasian,"CityC, StateZ, Country2",25,Rash,Normal,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Mild
+68771,2022-08-19,1,Male,African American,"CityB, StateX, Country3",12,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+87912,2016-08-13,13,Male,Other,"CityB, StateX, Country2",12,Swollen Lymph Nodes,Normal,Normal,IVIG,Stable,Pericarditis,Not Scheduled,Mild
+59531,2020-06-18,1,Male,Other,"CityC, StateY, Country3",8,Swollen Hands/Feet,Normal,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Unknown
+17468,2014-11-24,15,Female,Other,"CityC, StateX, Country2",7,Fever,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+41674,2016-07-19,11,Male,Other,"CityC, StateY, Country2",6,Red Eyes,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Scheduled,Severe
+39941,2016-08-04,13,Female,African American,"CityB, StateX, Country1",22,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Mild
+43863,2020-09-23,7,Male,Hispanic,"CityB, StateZ, Country3",8,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+81394,2015-01-09,3,Female,Other,"CityB, StateZ, Country2",28,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Improvement,Unknown,Not Scheduled,Severe
+58974,2020-10-28,10,Male,African American,"CityA, StateZ, Country3",9,Swollen Lymph Nodes,Normal,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+88826,2015-04-09,8,Female,Hispanic,"CityB, StateX, Country3",27,Fever,Elevated,Normal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+34687,2013-11-16,5,Male,African American,"CityB, StateX, Country3",26,Red Eyes,Normal,Normal,Aspirin,Stable,Pericarditis,Scheduled,Mild
+23216,2018-11-03,10,Female,Hispanic,"CityC, StateY, Country2",19,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+10232,2017-01-18,16,Female,Hispanic,"CityC, StateY, Country2",12,Fever,Normal,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Mild
+93210,2017-07-04,2,Male,Caucasian,"CityB, StateZ, Country1",2,Red Eyes,Elevated,Normal,IVIG,Worsening,Pericarditis,Scheduled,Mild
+48225,2014-12-09,14,Female,Other,"CityB, StateZ, Country3",18,Rash,Normal,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Unknown
+98577,2018-01-16,12,Female,African American,"CityB, StateX, Country3",17,Rash,Elevated,Abnormal,IVIG,Worsening,Myocarditis,Scheduled,Mild
+36363,2015-03-03,6,Male,Caucasian,"CityA, StateZ, Country3",6,Fever,Normal,Abnormal,IVIG,Stable,Unknown,Scheduled,Severe
+79291,2020-11-01,9,Female,Asian,"CityC, StateZ, Country2",14,Swollen Lymph Nodes,Normal,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+87353,2014-12-06,14,Female,Asian,"CityB, StateY, Country1",9,Swollen Hands/Feet,Normal,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+10876,2016-03-16,14,Male,Asian,"CityB, StateZ, Country2",27,Rash,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+72804,2014-08-31,14,Female,Caucasian,"CityB, StateY, Country1",19,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Severe
+45634,2023-03-01,1,Female,Hispanic,"CityB, StateZ, Country2",24,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Stable,Pericarditis,Scheduled,Severe
+78970,2019-07-14,5,Male,Other,"CityB, StateZ, Country1",11,Rash,Normal,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+58697,2021-03-19,3,Female,African American,"CityC, StateY, Country3",18,Swollen Hands/Feet,Elevated,Normal,IVIG,Worsening,Myocarditis,Not Scheduled,Mild
+58614,2021-09-07,14,Male,African American,"CityC, StateY, Country3",18,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Severe
+71857,2016-10-28,16,Female,Hispanic,"CityB, StateY, Country3",19,Red Eyes,Normal,Abnormal,IVIG,Stable,Pericarditis,Scheduled,Mild
+98952,2019-06-23,2,Male,Caucasian,"CityB, StateY, Country2",6,Red Eyes,Normal,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+22293,2013-10-22,10,Male,Caucasian,"CityA, StateY, Country3",26,Rash,Elevated,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Unknown
+43620,2023-05-20,3,Male,Caucasian,"CityC, StateZ, Country3",27,Fever,Normal,Normal,Aspirin,Stable,Unknown,Scheduled,Unknown
+58267,2017-06-19,16,Female,Asian,"CityC, StateZ, Country1",4,Swollen Hands/Feet,Normal,Normal,Aspirin,Worsening,Unknown,Scheduled,Mild
+91023,2023-03-19,6,Female,Caucasian,"CityB, StateZ, Country2",4,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+89448,2019-08-30,2,Male,African American,"CityA, StateZ, Country1",4,Fever,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Severe
+74172,2015-10-01,6,Female,Other,"CityC, StateX, Country3",18,Rash,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Unknown
+74105,2016-06-08,4,Female,Caucasian,"CityA, StateZ, Country2",29,Rash,Normal,Abnormal,IVIG,Worsening,Unknown,Not Scheduled,Mild
+62736,2014-07-17,9,Male,Hispanic,"CityC, StateX, Country3",21,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Improvement,Myocarditis,Scheduled,Unknown
+98189,2013-11-11,14,Male,Other,"CityC, StateX, Country3",19,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Mild
+76005,2023-04-27,6,Male,Hispanic,"CityC, StateZ, Country2",12,Rash,Normal,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+74676,2023-05-18,17,Male,Asian,"CityB, StateX, Country3",15,Swollen Lymph Nodes,Elevated,Normal,IVIG,Improvement,Pericarditis,Scheduled,Mild
+91749,2023-03-14,14,Male,Asian,"CityC, StateZ, Country3",24,Red Eyes,Elevated,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+56898,2018-09-27,6,Male,Hispanic,"CityA, StateZ, Country1",30,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Worsening,Pericarditis,Scheduled,Severe
+79729,2014-09-01,17,Female,Caucasian,"CityA, StateX, Country3",6,Rash,Elevated,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Unknown
+98002,2016-07-02,18,Female,Hispanic,"CityC, StateZ, Country3",13,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Stable,Pericarditis,Not Scheduled,Severe
+89929,2023-09-22,10,Female,Other,"CityC, StateZ, Country1",30,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+17348,2019-11-07,15,Female,Hispanic,"CityA, StateX, Country3",7,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+90933,2017-03-24,8,Female,Hispanic,"CityA, StateY, Country2",28,Fever,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+52216,2014-10-19,16,Male,Asian,"CityC, StateZ, Country3",6,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+85443,2021-10-27,2,Male,Other,"CityC, StateZ, Country3",3,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+82112,2016-01-23,5,Male,Caucasian,"CityA, StateY, Country2",24,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+61937,2019-03-20,14,Female,African American,"CityB, StateZ, Country1",27,Rash,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Unknown
+74440,2023-04-29,8,Male,Caucasian,"CityC, StateX, Country1",29,Rash,Elevated,Abnormal,IVIG,Stable,Myocarditis,Scheduled,Severe
+51533,2021-04-20,4,Male,Asian,"CityC, StateY, Country1",12,Swollen Hands/Feet,Normal,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+97581,2014-08-03,18,Male,African American,"CityB, StateY, Country1",13,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+98075,2017-07-10,17,Female,African American,"CityA, StateZ, Country1",30,Red Eyes,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Scheduled,Mild
+40383,2020-09-02,17,Female,Hispanic,"CityC, StateZ, Country3",28,Rash,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+52983,2015-01-03,17,Female,Hispanic,"CityC, StateX, Country1",2,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Mild
+71255,2023-03-31,5,Male,Hispanic,"CityC, StateX, Country3",27,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Severe
+93023,2017-07-23,2,Female,Other,"CityB, StateY, Country3",24,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Pericarditis,Not Scheduled,Unknown
+72215,2019-01-24,9,Male,Caucasian,"CityC, StateY, Country3",24,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Mild
+51634,2020-07-17,5,Male,Other,"CityB, StateY, Country1",2,Swollen Lymph Nodes,Normal,Normal,IVIG,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+10670,2020-02-27,2,Female,Hispanic,"CityA, StateY, Country2",16,Rash,Elevated,Abnormal,Aspirin,Improvement,Unknown,Not Scheduled,Unknown
+25082,2020-04-21,15,Male,Other,"CityB, StateZ, Country2",27,Fever,Normal,Normal,IVIG + Aspirin,Stable,Myocarditis,Scheduled,Unknown
+43676,2017-03-19,16,Female,African American,"CityB, StateZ, Country1",30,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+26172,2018-09-18,2,Male,African American,"CityA, StateY, Country1",14,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+54681,2017-10-25,7,Female,Caucasian,"CityB, StateX, Country3",25,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+28476,2017-02-17,1,Female,Asian,"CityC, StateY, Country1",21,Fever,Normal,Normal,Aspirin,Stable,Unknown,Not Scheduled,Unknown
+11490,2016-09-18,13,Male,African American,"CityC, StateY, Country1",25,Red Eyes,Normal,Abnormal,IVIG,Stable,Unknown,Not Scheduled,Unknown
+70661,2021-09-12,15,Male,Hispanic,"CityA, StateX, Country3",27,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Mild
+24772,2023-05-24,7,Female,Hispanic,"CityC, StateX, Country1",27,Rash,Normal,Abnormal,Aspirin,Stable,Unknown,Not Scheduled,Mild
+90562,2016-06-01,2,Female,Other,"CityC, StateX, Country3",5,Red Eyes,Elevated,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+81199,2023-01-31,12,Female,Hispanic,"CityC, StateZ, Country1",23,Swollen Hands/Feet,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Severe
+77564,2017-07-26,1,Male,Caucasian,"CityC, StateX, Country2",21,Red Eyes,Elevated,Abnormal,IVIG,Worsening,Unknown,Scheduled,Severe
+16999,2020-12-12,14,Female,Other,"CityA, StateX, Country1",27,Fever,Elevated,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+80190,2019-06-29,4,Male,Caucasian,"CityA, StateZ, Country2",9,Fever,Elevated,Normal,Aspirin,Worsening,Unknown,Scheduled,Mild
+26558,2019-05-03,8,Female,Hispanic,"CityA, StateX, Country1",12,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Unknown
+89145,2020-03-28,3,Female,African American,"CityA, StateZ, Country1",11,Fever,Normal,Abnormal,IVIG,Worsening,Myocarditis,Scheduled,Unknown
+69932,2020-04-30,1,Female,Other,"CityB, StateY, Country2",20,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Severe
+70383,2022-12-30,15,Female,Other,"CityC, StateX, Country3",17,Fever,Elevated,Abnormal,Aspirin,Worsening,Unknown,Not Scheduled,Severe
+96889,2015-09-24,7,Female,Other,"CityC, StateZ, Country2",8,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Improvement,Unknown,Scheduled,Mild
+22514,2017-09-19,4,Female,Caucasian,"CityC, StateY, Country2",12,Red Eyes,Normal,Abnormal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+98372,2019-02-04,2,Female,Asian,"CityC, StateX, Country3",20,Fever,Elevated,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+46599,2016-02-27,13,Male,Asian,"CityA, StateZ, Country2",10,Swollen Hands/Feet,Elevated,Normal,IVIG,Stable,Pericarditis,Scheduled,Mild
+35607,2016-10-14,8,Male,Asian,"CityC, StateZ, Country3",6,Fever,Elevated,Abnormal,IVIG,Stable,Unknown,Not Scheduled,Severe
+84984,2017-04-10,5,Female,Hispanic,"CityC, StateX, Country1",18,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+51729,2015-05-31,3,Female,Other,"CityB, StateX, Country2",26,Red Eyes,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+87089,2014-11-05,13,Male,Asian,"CityB, StateY, Country3",28,Fever,Elevated,Abnormal,Aspirin,Worsening,Unknown,Scheduled,Mild
+55954,2021-08-02,11,Female,Caucasian,"CityC, StateX, Country3",7,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+29752,2020-04-23,10,Male,Caucasian,"CityC, StateY, Country2",22,Red Eyes,Normal,Abnormal,IVIG,Worsening,Unknown,Scheduled,Unknown
+81490,2013-12-01,8,Female,Other,"CityB, StateY, Country3",17,Rash,Elevated,Normal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+47245,2019-12-07,2,Male,Asian,"CityA, StateZ, Country2",27,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Stable,Myocarditis,Not Scheduled,Unknown
+58447,2020-07-10,12,Male,African American,"CityA, StateZ, Country3",9,Fever,Elevated,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+29005,2023-03-14,10,Female,Other,"CityB, StateX, Country3",24,Red Eyes,Elevated,Abnormal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+29954,2014-05-08,3,Male,Caucasian,"CityC, StateZ, Country2",30,Fever,Normal,Normal,Aspirin,Improvement,Myocarditis,Scheduled,Severe
+19196,2019-12-01,2,Male,Hispanic,"CityC, StateX, Country3",30,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Mild
+91203,2016-06-24,15,Male,Hispanic,"CityC, StateY, Country2",24,Red Eyes,Elevated,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+77123,2014-05-21,9,Male,African American,"CityB, StateX, Country1",4,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Severe
+97746,2013-10-01,1,Female,Caucasian,"CityC, StateX, Country2",11,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+29032,2016-07-11,2,Female,Other,"CityB, StateY, Country3",30,Rash,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Not Scheduled,Mild
+37183,2015-05-25,4,Female,Hispanic,"CityA, StateY, Country1",14,Rash,Elevated,Abnormal,IVIG,Worsening,Unknown,Not Scheduled,Severe
+72199,2022-09-21,3,Female,Asian,"CityB, StateY, Country3",27,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Unknown
+53704,2014-11-30,12,Male,Other,"CityA, StateZ, Country3",6,Fever,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+55312,2021-05-26,13,Male,Caucasian,"CityA, StateX, Country2",30,Fever,Elevated,Abnormal,Aspirin,Stable,Unknown,Not Scheduled,Severe
+50262,2015-07-20,4,Male,Caucasian,"CityB, StateY, Country1",12,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Severe
+40988,2023-09-06,2,Male,Other,"CityC, StateZ, Country1",10,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+28195,2017-05-24,7,Male,Asian,"CityC, StateY, Country1",9,Red Eyes,Elevated,Abnormal,Aspirin,Improvement,Myocarditis,Scheduled,Severe
+82520,2018-06-26,13,Male,Other,"CityA, StateX, Country3",5,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Severe
+84874,2013-10-14,2,Male,Asian,"CityB, StateY, Country3",5,Rash,Normal,Abnormal,Aspirin,Improvement,Pericarditis,Not Scheduled,Severe
+73355,2020-12-13,15,Female,Other,"CityB, StateZ, Country1",22,Fever,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Severe
+39269,2019-10-16,10,Female,Hispanic,"CityA, StateY, Country3",25,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Unknown
+81218,2022-10-14,9,Female,Other,"CityC, StateZ, Country2",24,Rash,Elevated,Abnormal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Severe
+66930,2021-10-12,15,Male,Caucasian,"CityC, StateX, Country2",1,Swollen Lymph Nodes,Normal,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+27860,2021-08-28,7,Male,Caucasian,"CityA, StateY, Country2",9,Rash,Normal,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+89128,2018-05-23,18,Female,Other,"CityA, StateX, Country3",6,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+47197,2015-12-13,8,Male,African American,"CityA, StateX, Country1",14,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Myocarditis,Not Scheduled,Unknown
+72977,2015-03-26,7,Female,Caucasian,"CityC, StateZ, Country3",8,Rash,Elevated,Normal,IVIG,Worsening,Unknown,Not Scheduled,Unknown
+40258,2015-08-27,6,Female,Hispanic,"CityB, StateZ, Country2",4,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Mild
+81463,2020-12-17,12,Female,Other,"CityA, StateX, Country2",9,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Severe
+10272,2016-05-16,18,Female,African American,"CityA, StateX, Country1",20,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Mild
+60823,2013-12-23,3,Female,Asian,"CityC, StateX, Country2",11,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+85426,2020-09-14,10,Female,Other,"CityA, StateX, Country3",3,Rash,Elevated,Normal,Aspirin,Improvement,Pericarditis,Not Scheduled,Severe
+80198,2018-05-26,8,Female,Other,"CityB, StateX, Country2",3,Rash,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+43735,2015-06-18,8,Male,Caucasian,"CityA, StateY, Country3",2,Swollen Hands/Feet,Elevated,Normal,Aspirin,Stable,Unknown,Scheduled,Severe
+73794,2018-05-22,15,Female,Asian,"CityA, StateZ, Country1",11,Red Eyes,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+71380,2014-09-25,11,Female,Asian,"CityA, StateX, Country1",17,Rash,Elevated,Abnormal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+40759,2015-12-10,3,Male,Asian,"CityA, StateZ, Country1",30,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Mild
+12652,2014-08-30,14,Female,Asian,"CityC, StateY, Country3",29,Rash,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+21633,2017-11-15,11,Male,Caucasian,"CityB, StateY, Country3",19,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Severe
+34503,2014-10-05,10,Female,African American,"CityB, StateZ, Country1",8,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+96240,2020-02-06,14,Male,Asian,"CityA, StateZ, Country2",2,Red Eyes,Elevated,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+31837,2021-08-19,3,Male,Hispanic,"CityA, StateY, Country2",29,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Myocarditis,Scheduled,Severe
+29274,2023-05-24,9,Female,Other,"CityB, StateZ, Country1",11,Rash,Normal,Normal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Severe
+43788,2015-07-10,2,Female,Asian,"CityC, StateZ, Country2",9,Fever,Normal,Abnormal,IVIG,Worsening,Unknown,Scheduled,Severe
+74156,2023-04-06,17,Female,Hispanic,"CityC, StateZ, Country1",5,Red Eyes,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+66909,2018-04-14,15,Male,African American,"CityB, StateY, Country2",18,Red Eyes,Normal,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+10304,2021-10-10,9,Female,Asian,"CityA, StateX, Country2",24,Swollen Lymph Nodes,Normal,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+53846,2015-05-31,11,Female,Asian,"CityC, StateY, Country3",30,Red Eyes,Normal,Normal,IVIG,Stable,Unknown,Not Scheduled,Unknown
+76156,2016-07-15,12,Male,Hispanic,"CityA, StateZ, Country3",19,Swollen Lymph Nodes,Elevated,Normal,IVIG,Worsening,Pericarditis,Scheduled,Severe
+76645,2018-08-05,8,Female,Other,"CityC, StateZ, Country3",29,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+72650,2019-01-26,3,Male,Caucasian,"CityB, StateY, Country2",5,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Improvement,Myocarditis,Scheduled,Unknown
+76941,2019-07-14,12,Male,African American,"CityA, StateY, Country1",24,Swollen Hands/Feet,Normal,Normal,IVIG,Worsening,Unknown,Scheduled,Mild
+60118,2015-04-07,16,Male,Hispanic,"CityB, StateZ, Country1",6,Rash,Elevated,Abnormal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Severe
+52697,2014-07-12,17,Female,Caucasian,"CityC, StateZ, Country2",10,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Severe
+93548,2016-01-14,8,Female,Asian,"CityC, StateX, Country1",9,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Stable,Unknown,Scheduled,Mild
+69631,2022-09-15,16,Male,Caucasian,"CityA, StateZ, Country3",10,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Severe
+24967,2021-01-25,10,Male,Other,"CityB, StateX, Country1",6,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+10857,2016-12-01,14,Male,Caucasian,"CityA, StateZ, Country1",1,Rash,Elevated,Abnormal,IVIG,Improvement,Pericarditis,Scheduled,Unknown
+35652,2023-04-24,4,Male,Caucasian,"CityB, StateY, Country1",5,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+82860,2014-06-07,12,Male,Caucasian,"CityA, StateZ, Country3",20,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+35104,2021-06-12,14,Male,Hispanic,"CityC, StateY, Country3",21,Rash,Elevated,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+90927,2020-01-09,8,Male,Hispanic,"CityB, StateZ, Country3",20,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Worsening,Myocarditis,Not Scheduled,Mild
+33498,2022-10-17,8,Male,Caucasian,"CityC, StateZ, Country2",17,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+16160,2017-04-20,6,Female,Asian,"CityB, StateY, Country1",18,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+79518,2016-03-20,4,Female,Caucasian,"CityB, StateY, Country3",27,Swollen Hands/Feet,Elevated,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+21940,2014-06-04,9,Female,Other,"CityB, StateX, Country3",9,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Stable,Unknown,Scheduled,Mild
+35887,2021-01-08,18,Female,Asian,"CityA, StateX, Country2",18,Fever,Normal,Abnormal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+22149,2017-11-23,17,Male,African American,"CityB, StateX, Country3",1,Rash,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Not Scheduled,Mild
+62747,2020-02-20,13,Male,Caucasian,"CityA, StateZ, Country2",29,Red Eyes,Elevated,Normal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+52559,2019-11-11,2,Male,African American,"CityA, StateY, Country1",19,Rash,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+76134,2017-01-29,6,Male,Hispanic,"CityC, StateX, Country2",12,Fever,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+15411,2016-05-09,13,Male,Caucasian,"CityC, StateZ, Country1",1,Fever,Elevated,Abnormal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+63329,2020-04-14,14,Female,Caucasian,"CityA, StateY, Country2",8,Rash,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+92821,2021-03-08,14,Male,Caucasian,"CityC, StateX, Country1",30,Red Eyes,Elevated,Normal,IVIG,Improvement,Coronary Artery Aneurysm,Scheduled,Mild
+52234,2016-11-20,14,Female,Hispanic,"CityB, StateX, Country3",27,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Pericarditis,Not Scheduled,Unknown
+27327,2020-09-27,6,Male,Asian,"CityC, StateX, Country2",18,Swollen Lymph Nodes,Normal,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+74012,2016-08-08,8,Female,Hispanic,"CityC, StateY, Country1",24,Fever,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+11128,2021-02-10,12,Male,Other,"CityB, StateY, Country1",21,Fever,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+99317,2014-10-11,11,Female,Hispanic,"CityC, StateZ, Country1",17,Red Eyes,Elevated,Normal,Aspirin,Improvement,Myocarditis,Scheduled,Mild
+91600,2016-06-12,18,Male,Other,"CityA, StateY, Country1",6,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+66859,2022-06-30,5,Male,Other,"CityA, StateZ, Country1",5,Red Eyes,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+25683,2021-06-21,11,Male,Hispanic,"CityA, StateY, Country2",2,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Improvement,Myocarditis,Scheduled,Unknown
+34270,2018-09-18,5,Female,Other,"CityA, StateY, Country3",26,Red Eyes,Elevated,Normal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+53566,2015-06-25,12,Male,Asian,"CityC, StateX, Country1",25,Rash,Elevated,Normal,Aspirin,Worsening,Unknown,Scheduled,Unknown
+78261,2019-01-16,15,Male,Caucasian,"CityA, StateZ, Country2",2,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+33757,2016-04-01,6,Male,Other,"CityA, StateX, Country2",27,Swollen Lymph Nodes,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+68535,2021-03-06,1,Male,Hispanic,"CityC, StateZ, Country1",6,Red Eyes,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+28677,2022-09-26,15,Female,Other,"CityA, StateZ, Country1",8,Red Eyes,Normal,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Mild
+36273,2016-09-24,14,Male,Hispanic,"CityB, StateZ, Country1",25,Rash,Normal,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+50018,2018-06-02,1,Female,Asian,"CityB, StateZ, Country1",17,Swollen Hands/Feet,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Unknown
+74171,2016-02-25,12,Male,Caucasian,"CityA, StateX, Country3",16,Fever,Elevated,Normal,IVIG,Improvement,Unknown,Scheduled,Mild
+69432,2015-05-04,15,Male,Asian,"CityC, StateY, Country1",6,Rash,Elevated,Normal,IVIG + Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+80856,2017-05-30,5,Female,Caucasian,"CityC, StateX, Country1",5,Swollen Hands/Feet,Elevated,Normal,Aspirin,Worsening,Unknown,Not Scheduled,Severe
+30695,2021-12-11,16,Female,Asian,"CityB, StateZ, Country3",26,Rash,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Severe
+33878,2021-08-02,16,Female,Caucasian,"CityA, StateZ, Country3",4,Fever,Normal,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Unknown
+60332,2016-12-12,12,Female,Other,"CityA, StateZ, Country3",3,Fever,Normal,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Severe
+35033,2020-06-05,16,Male,Asian,"CityA, StateX, Country1",11,Red Eyes,Normal,Normal,Aspirin,Stable,Pericarditis,Scheduled,Unknown
+27523,2014-07-07,13,Male,Hispanic,"CityA, StateX, Country3",23,Swollen Hands/Feet,Elevated,Normal,IVIG,Improvement,Myocarditis,Scheduled,Mild
+27082,2020-11-19,3,Female,Other,"CityA, StateZ, Country1",17,Rash,Normal,Abnormal,Aspirin,Improvement,Unknown,Not Scheduled,Mild
+47203,2022-05-15,11,Female,Other,"CityA, StateX, Country3",21,Fever,Elevated,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+37937,2017-12-02,1,Female,Other,"CityC, StateX, Country3",11,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Mild
+69964,2016-05-19,5,Female,Caucasian,"CityC, StateY, Country3",5,Swollen Lymph Nodes,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Mild
+66835,2022-04-05,5,Male,Caucasian,"CityC, StateX, Country3",18,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Unknown
+52339,2023-01-17,15,Male,African American,"CityC, StateZ, Country3",5,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Mild
+70279,2015-06-14,1,Male,Other,"CityB, StateY, Country1",29,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Mild
+66501,2017-01-04,3,Male,Other,"CityC, StateZ, Country1",8,Swollen Hands/Feet,Elevated,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+69951,2021-01-22,14,Male,Caucasian,"CityC, StateZ, Country1",26,Red Eyes,Normal,Normal,IVIG,Improvement,Pericarditis,Not Scheduled,Mild
+83880,2022-07-29,15,Male,Hispanic,"CityC, StateX, Country2",25,Fever,Elevated,Normal,IVIG,Improvement,Pericarditis,Not Scheduled,Mild
+59702,2016-08-22,14,Female,African American,"CityB, StateZ, Country2",27,Swollen Hands/Feet,Normal,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+69567,2023-02-28,7,Male,Caucasian,"CityC, StateX, Country1",21,Swollen Hands/Feet,Elevated,Normal,IVIG,Stable,Pericarditis,Scheduled,Unknown
+80225,2014-12-14,13,Female,Hispanic,"CityB, StateY, Country1",21,Rash,Elevated,Abnormal,IVIG + Aspirin,Improvement,Unknown,Not Scheduled,Unknown
+13456,2021-07-17,15,Male,African American,"CityB, StateY, Country1",9,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+67983,2017-07-27,12,Male,Asian,"CityC, StateY, Country3",2,Red Eyes,Elevated,Normal,IVIG,Improvement,Unknown,Scheduled,Severe
+75677,2023-01-27,10,Female,Other,"CityB, StateZ, Country1",12,Rash,Elevated,Normal,IVIG,Stable,Myocarditis,Scheduled,Mild
+71082,2015-05-31,6,Male,Other,"CityA, StateZ, Country1",15,Swollen Hands/Feet,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+94351,2018-12-20,17,Female,Asian,"CityB, StateZ, Country1",25,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Stable,Myocarditis,Not Scheduled,Mild
+72289,2017-02-10,7,Male,Hispanic,"CityA, StateY, Country3",22,Red Eyes,Elevated,Abnormal,IVIG,Improvement,Pericarditis,Scheduled,Severe
+17511,2021-12-02,10,Female,African American,"CityA, StateY, Country2",22,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Worsening,Pericarditis,Scheduled,Unknown
+69967,2017-10-19,9,Male,African American,"CityA, StateZ, Country1",19,Red Eyes,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Mild
+26184,2014-12-01,13,Female,Caucasian,"CityA, StateZ, Country2",30,Swollen Hands/Feet,Normal,Normal,IVIG,Improvement,Pericarditis,Scheduled,Unknown
+94483,2023-01-20,18,Female,African American,"CityC, StateX, Country2",20,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+69949,2020-01-07,8,Male,Asian,"CityA, StateY, Country1",3,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+94836,2018-01-19,16,Female,Other,"CityB, StateX, Country1",27,Rash,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+30267,2020-09-05,5,Female,Asian,"CityC, StateY, Country2",9,Rash,Elevated,Normal,Aspirin,Improvement,Unknown,Not Scheduled,Mild
+50838,2019-01-01,9,Female,Caucasian,"CityA, StateX, Country1",21,Red Eyes,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Scheduled,Severe
+68973,2017-12-10,3,Female,Caucasian,"CityA, StateY, Country3",7,Rash,Elevated,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+85106,2020-09-28,3,Male,Caucasian,"CityC, StateZ, Country3",22,Fever,Normal,Normal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Unknown
+16420,2021-02-26,5,Female,Hispanic,"CityA, StateY, Country1",16,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+93709,2021-03-01,15,Female,Asian,"CityC, StateX, Country2",10,Red Eyes,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+53505,2018-06-09,1,Female,Asian,"CityC, StateZ, Country3",1,Rash,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Scheduled,Mild
+13993,2013-10-01,8,Male,Asian,"CityB, StateZ, Country3",9,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+93651,2014-12-05,12,Male,African American,"CityB, StateX, Country3",11,Red Eyes,Elevated,Normal,Aspirin,Improvement,Pericarditis,Scheduled,Severe
+25946,2019-01-02,6,Female,Caucasian,"CityB, StateY, Country2",30,Red Eyes,Elevated,Normal,IVIG,Stable,Unknown,Not Scheduled,Severe
+66810,2018-06-12,3,Male,Hispanic,"CityB, StateZ, Country3",24,Rash,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Mild
+93084,2023-03-24,6,Female,Asian,"CityC, StateY, Country1",9,Fever,Normal,Abnormal,IVIG,Stable,Myocarditis,Not Scheduled,Unknown
+47630,2018-01-16,11,Female,Other,"CityB, StateZ, Country1",8,Rash,Normal,Abnormal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+60858,2017-01-14,6,Female,Hispanic,"CityB, StateZ, Country3",16,Swollen Lymph Nodes,Normal,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Mild
+13047,2020-07-02,8,Female,Other,"CityB, StateZ, Country1",1,Swollen Hands/Feet,Elevated,Abnormal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Mild
+26192,2020-01-07,13,Male,Other,"CityB, StateY, Country2",15,Rash,Normal,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+40060,2022-09-04,18,Male,Hispanic,"CityC, StateZ, Country3",6,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Worsening,Pericarditis,Not Scheduled,Severe
+51333,2015-01-15,5,Female,Hispanic,"CityA, StateX, Country2",2,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+49396,2019-10-02,7,Female,Hispanic,"CityB, StateX, Country1",2,Rash,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Scheduled,Unknown
+30039,2016-01-18,3,Female,Hispanic,"CityC, StateY, Country2",14,Rash,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Severe
+70667,2018-03-24,5,Male,Caucasian,"CityC, StateZ, Country3",10,Red Eyes,Normal,Normal,IVIG + Aspirin,Worsening,Pericarditis,Not Scheduled,Unknown
+36326,2023-08-27,6,Male,Other,"CityB, StateY, Country1",9,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Worsening,Unknown,Not Scheduled,Unknown
+63049,2020-02-16,12,Male,African American,"CityC, StateZ, Country2",21,Swollen Hands/Feet,Normal,Abnormal,IVIG,Improvement,Pericarditis,Not Scheduled,Severe
+46666,2020-02-12,9,Male,Other,"CityB, StateZ, Country2",24,Rash,Normal,Abnormal,Aspirin,Improvement,Myocarditis,Not Scheduled,Severe
+64419,2022-08-16,11,Male,African American,"CityB, StateX, Country2",17,Red Eyes,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Unknown
+84694,2022-11-22,6,Male,Caucasian,"CityA, StateX, Country3",5,Fever,Normal,Normal,Aspirin,Stable,Myocarditis,Not Scheduled,Unknown
+78777,2019-07-14,15,Male,African American,"CityA, StateY, Country2",3,Swollen Hands/Feet,Normal,Normal,Aspirin,Stable,Pericarditis,Scheduled,Unknown
+14351,2023-08-16,2,Female,Other,"CityB, StateY, Country2",18,Swollen Hands/Feet,Normal,Normal,Aspirin,Stable,Unknown,Scheduled,Unknown
+92581,2020-04-30,12,Female,Asian,"CityB, StateX, Country2",20,Swollen Hands/Feet,Normal,Normal,IVIG,Stable,Pericarditis,Not Scheduled,Unknown
+73699,2021-07-11,4,Male,Caucasian,"CityC, StateX, Country1",19,Swollen Hands/Feet,Elevated,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+78721,2018-12-13,7,Male,Asian,"CityB, StateX, Country1",18,Fever,Elevated,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Unknown
+29571,2015-10-27,1,Female,Asian,"CityA, StateY, Country2",11,Fever,Normal,Abnormal,IVIG,Improvement,Unknown,Not Scheduled,Severe
+50752,2015-04-01,7,Male,African American,"CityA, StateZ, Country2",12,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+37876,2014-02-26,14,Female,Hispanic,"CityB, StateX, Country2",17,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Improvement,Unknown,Scheduled,Mild
+97751,2017-05-02,10,Female,African American,"CityB, StateZ, Country2",15,Swollen Lymph Nodes,Elevated,Normal,IVIG,Improvement,Myocarditis,Scheduled,Severe
+38121,2015-02-15,3,Female,Caucasian,"CityA, StateZ, Country2",8,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Unknown
+11798,2015-11-22,13,Male,Asian,"CityC, StateY, Country1",12,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+22186,2023-01-29,6,Female,African American,"CityA, StateY, Country3",12,Red Eyes,Normal,Normal,IVIG,Worsening,Myocarditis,Scheduled,Unknown
+90855,2021-05-04,1,Male,Asian,"CityB, StateX, Country1",10,Swollen Hands/Feet,Elevated,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+10651,2014-11-26,3,Female,Caucasian,"CityC, StateY, Country2",23,Rash,Normal,Normal,Aspirin,Worsening,Pericarditis,Scheduled,Severe
+29259,2021-11-26,18,Female,Caucasian,"CityA, StateY, Country3",24,Fever,Elevated,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Not Scheduled,Unknown
+95960,2022-06-28,17,Male,Asian,"CityA, StateZ, Country2",1,Swollen Lymph Nodes,Elevated,Normal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+87617,2020-05-29,3,Female,Hispanic,"CityB, StateY, Country1",18,Rash,Normal,Abnormal,IVIG,Worsening,Unknown,Not Scheduled,Severe
+48785,2019-06-19,16,Male,African American,"CityA, StateX, Country1",17,Fever,Normal,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+26199,2018-09-27,6,Male,African American,"CityA, StateX, Country2",27,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+40039,2016-08-27,6,Male,Hispanic,"CityC, StateZ, Country3",22,Rash,Elevated,Abnormal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Severe
+73080,2021-11-26,9,Male,African American,"CityC, StateZ, Country2",14,Rash,Elevated,Normal,IVIG,Stable,Unknown,Not Scheduled,Unknown
+42473,2020-10-09,6,Female,Hispanic,"CityA, StateX, Country1",24,Fever,Normal,Normal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Unknown
+53094,2021-11-09,11,Female,Caucasian,"CityC, StateZ, Country1",24,Red Eyes,Elevated,Abnormal,IVIG,Worsening,Pericarditis,Not Scheduled,Unknown
+77033,2015-06-29,11,Male,Asian,"CityC, StateZ, Country2",5,Rash,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+17181,2019-12-30,17,Male,Other,"CityA, StateZ, Country2",14,Red Eyes,Elevated,Normal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Unknown
+34369,2014-01-06,15,Male,Caucasian,"CityC, StateX, Country1",7,Rash,Elevated,Normal,IVIG,Stable,Unknown,Scheduled,Mild
+32012,2021-04-17,15,Female,Hispanic,"CityA, StateZ, Country2",3,Swollen Lymph Nodes,Normal,Normal,IVIG,Stable,Myocarditis,Scheduled,Mild
+90723,2021-02-14,2,Male,Hispanic,"CityA, StateY, Country2",7,Swollen Hands/Feet,Normal,Normal,IVIG,Improvement,Myocarditis,Not Scheduled,Severe
+70204,2019-08-20,18,Female,African American,"CityA, StateZ, Country2",24,Rash,Normal,Normal,Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+50075,2015-06-19,9,Female,African American,"CityA, StateZ, Country3",24,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Unknown
+72836,2015-07-03,2,Female,Caucasian,"CityA, StateX, Country1",5,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Worsening,Pericarditis,Scheduled,Mild
+69927,2020-10-23,16,Female,Caucasian,"CityC, StateY, Country1",17,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Unknown
+87991,2018-02-21,1,Female,Hispanic,"CityA, StateY, Country1",19,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Mild
+82027,2020-11-24,9,Male,Asian,"CityA, StateX, Country2",28,Rash,Elevated,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Severe
+22424,2020-01-18,6,Female,Caucasian,"CityC, StateY, Country2",1,Rash,Elevated,Normal,Aspirin,Improvement,Myocarditis,Scheduled,Mild
+73970,2017-11-11,9,Male,African American,"CityA, StateZ, Country1",16,Rash,Elevated,Abnormal,Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+58403,2014-07-18,6,Female,Asian,"CityB, StateZ, Country3",6,Red Eyes,Normal,Abnormal,Aspirin,Stable,Pericarditis,Scheduled,Unknown
+61019,2014-08-15,10,Female,Asian,"CityB, StateZ, Country3",1,Red Eyes,Normal,Normal,IVIG,Worsening,Unknown,Scheduled,Unknown
+75232,2014-12-04,14,Female,African American,"CityC, StateX, Country3",26,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Mild
+92113,2014-10-11,11,Male,Hispanic,"CityC, StateY, Country3",29,Rash,Elevated,Normal,IVIG,Improvement,Unknown,Not Scheduled,Mild
+56783,2021-12-06,9,Male,Caucasian,"CityB, StateX, Country1",14,Red Eyes,Normal,Abnormal,IVIG,Improvement,Myocarditis,Not Scheduled,Mild
+30025,2016-08-03,9,Female,Caucasian,"CityC, StateY, Country1",7,Swollen Lymph Nodes,Elevated,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+57634,2014-02-23,3,Male,African American,"CityB, StateY, Country1",22,Swollen Hands/Feet,Elevated,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+22376,2017-05-14,16,Male,Hispanic,"CityB, StateX, Country1",1,Rash,Normal,Normal,Aspirin,Stable,Myocarditis,Scheduled,Unknown
+49715,2014-02-24,2,Male,Asian,"CityB, StateZ, Country2",4,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+44382,2017-07-13,6,Female,Caucasian,"CityB, StateX, Country2",26,Red Eyes,Normal,Abnormal,IVIG,Improvement,Unknown,Scheduled,Unknown
+16633,2014-10-11,1,Female,Other,"CityC, StateZ, Country3",18,Red Eyes,Normal,Normal,IVIG,Worsening,Unknown,Scheduled,Unknown
+86812,2022-04-12,7,Female,Other,"CityC, StateY, Country1",27,Fever,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Mild
+14615,2016-11-04,18,Female,Hispanic,"CityB, StateZ, Country3",1,Red Eyes,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Unknown
+26305,2019-10-28,6,Female,Caucasian,"CityA, StateX, Country1",26,Rash,Elevated,Normal,Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+65693,2015-07-28,8,Female,African American,"CityA, StateZ, Country3",20,Rash,Normal,Abnormal,Aspirin,Worsening,Myocarditis,Not Scheduled,Unknown
+43992,2022-01-25,16,Female,Caucasian,"CityC, StateZ, Country1",7,Fever,Elevated,Normal,IVIG,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+68479,2015-03-20,1,Male,Other,"CityC, StateZ, Country3",14,Fever,Normal,Abnormal,IVIG + Aspirin,Stable,Unknown,Scheduled,Unknown
+13123,2021-05-08,15,Male,Caucasian,"CityA, StateZ, Country3",8,Rash,Elevated,Abnormal,Aspirin,Stable,Pericarditis,Scheduled,Severe
+86903,2013-11-17,1,Female,Other,"CityB, StateX, Country3",5,Swollen Hands/Feet,Normal,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Scheduled,Severe
+54663,2016-10-23,18,Male,African American,"CityB, StateZ, Country2",10,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Scheduled,Unknown
+92988,2021-01-19,9,Female,African American,"CityC, StateX, Country2",19,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Mild
+58148,2013-10-27,16,Male,Hispanic,"CityA, StateZ, Country3",28,Swollen Lymph Nodes,Normal,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Scheduled,Mild
+43367,2017-11-24,3,Male,African American,"CityB, StateY, Country2",12,Red Eyes,Elevated,Abnormal,IVIG,Improvement,Pericarditis,Not Scheduled,Mild
+66065,2017-01-29,13,Male,Other,"CityC, StateX, Country3",26,Fever,Normal,Normal,IVIG,Stable,Unknown,Scheduled,Severe
+29779,2020-09-01,4,Female,Asian,"CityB, StateZ, Country3",10,Fever,Normal,Abnormal,IVIG,Stable,Myocarditis,Not Scheduled,Mild
+24958,2013-11-21,16,Female,Caucasian,"CityB, StateX, Country2",20,Rash,Normal,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+17216,2019-08-22,12,Female,Caucasian,"CityC, StateZ, Country3",3,Swollen Lymph Nodes,Normal,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+87882,2016-07-25,14,Female,African American,"CityC, StateZ, Country3",25,Swollen Hands/Feet,Elevated,Abnormal,IVIG,Improvement,Myocarditis,Scheduled,Severe
+88434,2019-02-16,3,Female,Other,"CityA, StateY, Country2",20,Swollen Lymph Nodes,Normal,Normal,IVIG,Stable,Myocarditis,Scheduled,Mild
+50007,2018-12-04,4,Male,Asian,"CityB, StateX, Country2",28,Swollen Lymph Nodes,Elevated,Normal,IVIG,Stable,Unknown,Scheduled,Mild
+13302,2019-04-11,7,Male,Asian,"CityB, StateZ, Country2",11,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Stable,Pericarditis,Not Scheduled,Severe
+99343,2023-09-19,3,Female,African American,"CityC, StateY, Country3",16,Fever,Normal,Normal,IVIG,Stable,Myocarditis,Not Scheduled,Severe
+58300,2018-10-23,8,Male,Asian,"CityA, StateZ, Country3",26,Swollen Lymph Nodes,Normal,Normal,IVIG + Aspirin,Stable,Myocarditis,Not Scheduled,Severe
+33627,2020-11-20,10,Male,African American,"CityB, StateX, Country2",17,Fever,Normal,Abnormal,Aspirin,Stable,Pericarditis,Not Scheduled,Mild
+16846,2018-06-11,9,Male,Hispanic,"CityC, StateX, Country1",14,Fever,Elevated,Normal,IVIG,Stable,Myocarditis,Not Scheduled,Mild
+54707,2016-06-06,12,Male,Caucasian,"CityA, StateX, Country1",11,Red Eyes,Elevated,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Unknown
+81187,2021-07-08,4,Male,African American,"CityB, StateZ, Country2",8,Fever,Elevated,Normal,Aspirin,Improvement,Myocarditis,Not Scheduled,Unknown
+86227,2013-12-09,6,Male,Asian,"CityA, StateZ, Country2",10,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Scheduled,Mild
+20353,2017-12-30,15,Male,Hispanic,"CityA, StateX, Country3",14,Swollen Hands/Feet,Normal,Normal,Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+79367,2021-09-19,3,Male,Hispanic,"CityC, StateY, Country2",6,Swollen Lymph Nodes,Elevated,Abnormal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Unknown
+47886,2015-11-10,17,Male,Other,"CityC, StateY, Country2",26,Swollen Lymph Nodes,Elevated,Abnormal,IVIG,Improvement,Myocarditis,Scheduled,Unknown
+74774,2016-07-19,2,Female,Hispanic,"CityB, StateX, Country1",13,Swollen Hands/Feet,Normal,Abnormal,IVIG,Improvement,Myocarditis,Scheduled,Mild
+32945,2022-07-22,9,Female,Asian,"CityB, StateX, Country3",29,Fever,Elevated,Abnormal,IVIG,Improvement,Pericarditis,Not Scheduled,Unknown
+73049,2022-09-21,17,Female,Asian,"CityB, StateX, Country3",6,Swollen Hands/Feet,Normal,Abnormal,IVIG + Aspirin,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+58996,2021-01-21,17,Male,African American,"CityC, StateZ, Country3",26,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Stable,Coronary Artery Aneurysm,Not Scheduled,Severe
+16880,2016-04-20,5,Male,Caucasian,"CityB, StateX, Country2",17,Red Eyes,Elevated,Abnormal,IVIG + Aspirin,Stable,Pericarditis,Not Scheduled,Unknown
+66703,2021-01-05,9,Female,Other,"CityA, StateZ, Country3",13,Swollen Hands/Feet,Normal,Abnormal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+10559,2013-11-20,14,Male,Caucasian,"CityA, StateZ, Country2",4,Red Eyes,Elevated,Abnormal,IVIG,Stable,Pericarditis,Scheduled,Severe
+18415,2016-01-19,17,Female,African American,"CityB, StateY, Country2",30,Fever,Normal,Abnormal,Aspirin,Stable,Unknown,Not Scheduled,Unknown
+85762,2020-05-19,15,Male,Caucasian,"CityC, StateY, Country1",10,Rash,Normal,Abnormal,IVIG,Worsening,Unknown,Scheduled,Unknown
+30080,2017-12-05,18,Male,Hispanic,"CityB, StateX, Country3",24,Swollen Hands/Feet,Elevated,Normal,IVIG,Stable,Pericarditis,Scheduled,Mild
+71169,2021-09-13,16,Female,Caucasian,"CityB, StateY, Country2",19,Swollen Hands/Feet,Normal,Abnormal,Aspirin,Stable,Myocarditis,Not Scheduled,Mild
+66104,2013-12-12,8,Female,Other,"CityA, StateY, Country2",6,Red Eyes,Normal,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+23722,2014-11-23,15,Female,Caucasian,"CityC, StateZ, Country3",22,Fever,Normal,Normal,IVIG + Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+19607,2014-03-18,9,Female,African American,"CityC, StateX, Country1",27,Fever,Elevated,Abnormal,Aspirin,Improvement,Pericarditis,Scheduled,Severe
+52232,2014-03-07,16,Male,Asian,"CityA, StateX, Country1",21,Fever,Normal,Abnormal,IVIG,Stable,Coronary Artery Aneurysm,Scheduled,Mild
+10599,2019-09-24,3,Female,Asian,"CityB, StateZ, Country1",22,Swollen Lymph Nodes,Normal,Normal,Aspirin,Worsening,Unknown,Scheduled,Unknown
+38944,2019-06-13,3,Female,Asian,"CityC, StateY, Country3",27,Rash,Normal,Normal,IVIG,Stable,Pericarditis,Scheduled,Severe
+19783,2020-01-23,12,Female,Caucasian,"CityA, StateX, Country2",16,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Pericarditis,Scheduled,Unknown
+27784,2017-04-14,17,Male,African American,"CityC, StateY, Country1",1,Fever,Normal,Normal,IVIG + Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+71923,2022-04-13,2,Female,African American,"CityB, StateY, Country1",27,Rash,Elevated,Normal,IVIG + Aspirin,Improvement,Coronary Artery Aneurysm,Not Scheduled,Severe
+80018,2016-06-15,15,Female,Hispanic,"CityB, StateY, Country2",26,Swollen Lymph Nodes,Elevated,Abnormal,Aspirin,Worsening,Coronary Artery Aneurysm,Not Scheduled,Severe
+72370,2014-05-03,10,Male,Caucasian,"CityC, StateZ, Country1",10,Red Eyes,Normal,Abnormal,IVIG + Aspirin,Improvement,Pericarditis,Not Scheduled,Mild
+92322,2016-08-09,6,Female,Hispanic,"CityB, StateZ, Country2",15,Rash,Normal,Normal,IVIG + Aspirin,Worsening,Unknown,Scheduled,Unknown
+62373,2019-11-13,17,Female,African American,"CityB, StateZ, Country2",26,Rash,Elevated,Abnormal,IVIG,Improvement,Unknown,Scheduled,Mild
+61769,2018-01-27,6,Male,African American,"CityB, StateY, Country2",20,Swollen Hands/Feet,Normal,Abnormal,IVIG,Worsening,Unknown,Scheduled,Severe
+35291,2022-11-14,14,Female,Other,"CityA, StateZ, Country3",21,Red Eyes,Elevated,Normal,Aspirin,Worsening,Myocarditis,Not Scheduled,Severe
+91547,2016-02-03,10,Male,Hispanic,"CityB, StateZ, Country2",12,Swollen Lymph Nodes,Elevated,Normal,IVIG,Worsening,Myocarditis,Not Scheduled,Mild
+93953,2022-07-13,6,Female,Hispanic,"CityC, StateX, Country3",21,Rash,Normal,Normal,Aspirin,Worsening,Myocarditis,Scheduled,Unknown
+76890,2018-03-16,12,Male,Asian,"CityC, StateX, Country1",4,Rash,Normal,Abnormal,Aspirin,Stable,Unknown,Not Scheduled,Mild
+17544,2018-08-19,2,Male,Caucasian,"CityC, StateY, Country1",10,Rash,Normal,Normal,IVIG,Worsening,Pericarditis,Not Scheduled,Mild
+88565,2015-05-08,3,Male,Caucasian,"CityC, StateY, Country1",4,Swollen Lymph Nodes,Elevated,Normal,Aspirin,Worsening,Unknown,Scheduled,Severe
+23437,2020-08-14,16,Female,Asian,"CityB, StateZ, Country2",5,Fever,Normal,Abnormal,IVIG,Worsening,Coronary Artery Aneurysm,Scheduled,Severe
+51926,2021-05-29,4,Female,Other,"CityA, StateZ, Country2",28,Rash,Normal,Abnormal,IVIG,Worsening,Unknown,Scheduled,Severe
+84297,2023-02-21,13,Female,Caucasian,"CityB, StateZ, Country1",30,Swollen Lymph Nodes,Elevated,Normal,IVIG,Stable,Coronary Artery Aneurysm,Not Scheduled,Mild
+19951,2020-02-12,13,Female,African American,"CityC, StateY, Country1",12,Swollen Hands/Feet,Normal,Normal,Aspirin,Worsening,Pericarditis,Not Scheduled,Severe

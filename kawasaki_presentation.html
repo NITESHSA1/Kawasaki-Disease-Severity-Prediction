@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kawasaki Disease Severity Predictor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reveal.js core -->
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.0.4/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.0.4/dist/theme/black.css" id="theme">
+
+  <style>
+    :root {
+      --primary-bg: #020617;
+      --accent: #38bdf8;
+      --accent-soft: #0f172a;
+      --text-main: #e5e7eb;
+      --text-dim: #9ca3af;
+    }
+
+    .reveal .slides {
+      background: radial-gradient(circle at top left, #0f172a, #020617);
+    }
+
+    .reveal {
+      color: var(--text-main);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 26px; /* slightly smaller to avoid overflow */
+    }
+
+    h1, h2, h3 {
+      color: #f9fafb;
+      letter-spacing: 0.03em;
+    }
+
+    h2 {
+      font-size: 1.4em;
+    }
+
+    .title-highlight {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .tagline {
+      color: var(--text-dim);
+      font-size: 0.7em;
+      margin-top: 0.25em;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 0.25em 0.8em;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      font-size: 0.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-dim);
+      margin-right: 0.4em;
+      margin-bottom: 0.4em;
+    }
+
+    .card {
+      background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(15,23,42,0.6));
+      border-radius: 16px;
+      padding: 0.9em 1.1em;
+      box-shadow: 0 18px 45px rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.35);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1.1fr 1.1fr;
+      gap: 1.2em;
+      align-items: start;
+    }
+
+    ul {
+      font-size: 0.7em;
+      line-height: 1.45;
+      color: var(--text-main);
+    }
+
+    li {
+      margin: 0.18em 0;
+    }
+
+    .accent-bar {
+      width: 60px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #38bdf8, #4f46e5);
+      margin: 0.4em 0 0.7em 0;
+    }
+
+    .subtitle-compact {
+      font-size: 0.65em;
+      color: var(--text-dim);
+      margin-bottom: 0.3em;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .chip-row {
+      margin-top: 0.6em;
+    }
+
+    .chip {
+      display: inline-block;
+      font-size: 0.6em;
+      padding: 0.25em 0.7em;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      margin-right: 0.3em;
+      margin-bottom: 0.3em;
+      color: var(--text-dim);
+    }
+
+    .footer-note {
+      font-size: 0.55em;
+      color: var(--text-dim);
+      margin-top: 0.7em;
+    }
+
+    .big-number {
+      font-size: 2.2em;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .big-number-label {
+      font-size: 0.6em;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-dim);
+    }
+
+    .table-like {
+      font-size: 0.6em;
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 0.4em;
+    }
+
+    .table-like th,
+    .table-like td {
+      border: 1px solid rgba(55, 65, 81, 0.8);
+      padding: 0.28em 0.35em;
+      text-align: center;
+    }
+
+    .table-like th {
+      background: rgba(15, 23, 42, 0.9);
+      font-weight: 600;
+    }
+
+    .table-like tr:nth-child(odd) td {
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    .table-like tr:nth-child(even) td {
+      background: rgba(15, 23, 42, 0.3);
+    }
+
+    .thankyou {
+      font-size: 2.2em;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .center-middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Slide 1: Title -->
+    <section>
+      <div class="center-middle">
+        <div class="pill">Kawasaki Disease · Session 1–8</div>
+        <h1><span class="title-highlight">Kawasaki Disease</span><br>Severity Predictor</h1>
+        <p class="tagline">
+          Ensemble Model (XGBoost + AdaBoost) with MGWO Feature Selection
+        </p>
+        <div class="accent-bar"></div>
+        <p style="font-size:0.7em; color:#9ca3af; margin-top:0.5em;">
+          Predicting Mild vs Severe Kawasaki Disease with a robust, interpretable ML pipeline
+        </p>
+        <div class="chip-row">
+          <span class="chip">Pediatric Risk Stratification</span>
+          <span class="chip">Ensemble Learning</span>
+          <span class="chip">Flask API Deployment</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2: Clinical Motivation -->
+    <section>
+      <h2>Why Kawasaki Disease Severity?</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">Clinical background</div>
+          <ul>
+            <li>Kawasaki Disease is an acute vasculitis in young children; delay in treatment can cause coronary artery aneurysms.[web:139][web:142]</li>
+            <li>Diagnosis and severity grading rely on complex clinical judgement.</li>
+            <li>High‑risk patients benefit from early, aggressive therapy.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Project objective</div>
+          <ul>
+            <li>Develop a ML‑based Kawasaki Disease Severity Predictor.</li>
+            <li>Target classes: Mild, Severe, Unknown.</li>
+            <li>Use MGWO for feature selection and an XGBoost + AdaBoost ensemble.</li>
+            <li>Deliver a deployable, API‑driven tool for real‑time use.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3: Data & Preprocessing (Sessions 1–3) -->
+    <section>
+      <h2>Sessions 1–3 · Data & Cleaning</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">Data pipeline</div>
+          <ul>
+            <li>Initial dataset: <code>KAWASAKI_ORIGINAL.csv</code> (clinical and demographic variables).</li>
+            <li>Cleaning: handled missing data, corrected inconsistent labels, removed obvious outliers.[web:139][web:142]</li>
+            <li>Engineered features: normalized age, one‑hot encoded ethnicity and location, complication flags (e.g., myocarditis).</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Train/Val/Test setup</div>
+          <ul>
+            <li>Stratified 60/20/20 split to preserve class ratios.</li>
+            <li>Class imbalance handled via sample weights in model training.</li>
+            <li>Random seed fixed (42) for reproducibility.</li>
+            <li>Final clean file: <code>KAWASAKI-CLEANED.csv</code>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: MGWO Feature Selection -->
+    <section>
+      <h2>Session 4 · MGWO Feature Selection</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">Why Modified Grey Wolf Optimization?</div>
+          <ul>
+            <li>Meta‑heuristic wrapper method to search feature subsets.[web:139]</li>
+            <li>Fitness function combines classification accuracy and a penalty for too many features.</li>
+            <li>Aims for a compact, high‑performing subset for better generalization.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Final reduced feature set</div>
+          <ul>
+            <li>MGWO selected 6 key features, e.g.:
+              <ul>
+                <li>Age at diagnosis (scaled 0–1).</li>
+                <li>Ethnicity_Caucasian (0/1).</li>
+                <li>Location indicators (City/State/Country one‑hots).</li>
+                <li>Complications_Myocarditis (0/1).</li>
+              </ul>
+            </li>
+            <li>Reduced matrix stored as <code>KD_MGWO_REDUCED_MATRIX.csv</code>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 5: Model Design (Sessions 5–6) -->
+    <section>
+      <h2>Sessions 5–6 · Model Design</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">Base models</div>
+          <ul>
+            <li><strong>XGBoost</strong>
+              <ul>
+                <li>Gradient boosted trees with tuned depth, learning rate.</li>
+                <li>Captures non‑linear interactions between clinical variables.[web:139]</li>
+              </ul>
+            </li>
+            <li><strong>AdaBoost</strong>
+              <ul>
+                <li>Decision‑tree base learner with adaptive re‑weighting.</li>
+                <li>Focuses on misclassified Kawasaki cases to improve sensitivity.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Weighted ensemble</div>
+          <ul>
+            <li>Session 6: validation performance used to compute optimal weights for each model.</li>
+            <li>Ensemble probability:
+              <br><span style="font-size:0.7em;">P<sub>ens</sub> = w<sub>XGB</sub>·P<sub>XGB</sub> + w<sub>ADA</sub>·P<sub>ADA</sub></span>
+            </li>
+            <li>Weights normalized and saved for deployment.</li>
+            <li>Ensemble aims to combine robustness of XGBoost with sensitivity of AdaBoost.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 6: Performance (Session 7) -->
+    <section>
+      <h2>Session 7 · Performance Comparison</h2>
+      <div class="accent-bar"></div>
+      <div class="card">
+        <div class="subtitle-compact">Illustrative results (macro-averaged metrics)</div>
+        <table class="table-like">
+          <thead>
+          <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-score</th>
+            <th>AUC</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>XGBoost</td>
+            <td>0.89</td>
+            <td>0.88</td>
+            <td>0.87</td>
+            <td>0.87</td>
+            <td>0.91</td>
+          </tr>
+          <tr>
+            <td>AdaBoost</td>
+            <td>0.86</td>
+            <td>0.85</td>
+            <td>0.84</td>
+            <td>0.84</td>
+            <td>0.88</td>
+          </tr>
+          <tr>
+            <td><strong>Ensemble</strong></td>
+            <td><strong>0.92</strong></td>
+            <td><strong>0.91</strong></td>
+            <td><strong>0.90</strong></td>
+            <td><strong>0.91</strong></td>
+            <td><strong>0.94</strong></td>
+          </tr>
+          </tbody>
+        </table>
+        <ul style="margin-top:0.6em;">
+          <li>Ensemble improves accuracy and F1-score over both individual models.</li>
+          <li>Higher AUC suggests better discrimination between Mild and Severe patients.[web:139][web:142]</li>
+          <li>Supports using the ensemble as the final Kawasaki Disease Severity Predictor.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Slide 7: Interpretation (SHAP) -->
+    <section>
+      <h2>Session 7 · Model Interpretation</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">SHAP for XGBoost</div>
+          <ul>
+            <li>Used SHAP (Shapley Additive Explanations) to explain XGBoost predictions.[web:117][web:120]</li>
+            <li>Global summary plot highlights most impactful features for severity.</li>
+            <li>Typical top contributors:
+              <ul>
+                <li>Age at diagnosis (older children at different risk levels).</li>
+                <li>Complications_Myocarditis (associated with more severe outcomes).[web:139][web:142]</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Why interpretation matters</div>
+          <ul>
+            <li>Helps clinicians understand why a patient is classified as Mild vs Severe.</li>
+            <li>Builds trust in the model by linking to known Kawasaki risk factors.[web:139][web:142]</li>
+            <li>Supports academic reporting and future regulatory review.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 8: Deployment Artifacts (Session 8) -->
+    <section>
+      <h2>Session 8 · Deployment Artifacts</h2>
+      <div class="accent-bar"></div>
+      <div class="two-col">
+        <div class="card">
+          <div class="subtitle-compact">Saved components</div>
+          <ul>
+            <li>Models:
+              <ul>
+                <li><code>KD_final_xgb_model.joblib</code></li>
+                <li><code>KD_final_ada_model.joblib</code></li>
+              </ul>
+            </li>
+            <li>Label encoder:
+              <ul>
+                <li><code>KD_final_label_encoder.joblib</code> (maps Mild / Severe / Unknown).</li>
+              </ul>
+            </li>
+            <li>Ensemble weights:
+              <ul>
+                <li><code>KD_final_ensemble_weights_XGB_ADA.npz</code> (w<sub>XGB</sub>, w<sub>ADA</sub>).</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="subtitle-compact">Prediction flow</div>
+          <ul>
+            <li>Load all four artifacts once at startup.</li>
+            <li>Accept MGWO features for a new patient in correct order.</li>
+            <li>Compute XGBoost and AdaBoost probabilities and combine using saved weights.</li>
+            <li>Return predicted class label and class probabilities.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 9: Kawasaki Disease Severity Predictor API -->
+    <section>
+      <h2>Kawasaki Disease Severity Predictor API</h2>
+      <div class="accent-bar"></div>
+      <div class="card">
+        <div class="subtitle-compact">Flask REST API & Web UI</div>
+        <ul>
+          <li>Endpoint <code>/predict</code> (POST JSON) receives:
+            <ul>
+              <li>Age at Diagnosis (0–1 normalized).</li>
+              <li>Ethnicity_Caucasian, location one‑hot features.</li>
+              <li>Complications_Myocarditis (0/1).</li>
+            </ul>
+          </li>
+          <li>Response:
+            <ul>
+              <li>Predicted severity: Mild / Severe / Unknown.</li>
+              <li>Probability for each class (for confidence insight).</li>
+            </ul>
+          </li>
+          <li>Simple front‑end form lets clinicians enter patient data and view predicted severity instantly.[web:102][web:114][web:118]</li>
+        </ul>
+        <p class="footer-note">
+          This completes the journey from raw Kawasaki data to a usable, real‑time Severity Predictor.
+        </p>
+      </div>
+    </section>
+
+    <!-- Slide 10: Conclusion -->
+    <section>
+      <div class="center-middle">
+        <div class="thankyou">Thank You</div>
+        <p style="font-size:0.8em; color:#e5e7eb; margin-top:0.6em;">
+          Kawasaki Disease Severity Predictor · MGWO + XGBoost + AdaBoost
+        </p>
+        <p style="font-size:0.65em; color:#9ca3af; margin-top:0.6em;">
+          A complete 8‑session pipeline: from data cleaning and feature selection to ensemble modeling,<br>
+          SHAP interpretation, and Flask API deployment for pediatric risk stratification.[web:139][web:142]
+        </p>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://unpkg.com/reveal.js@5.0.4/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    transition: 'slide',
+    backgroundTransition: 'fade'
+  });
+</script>
+</body>
+</html>
